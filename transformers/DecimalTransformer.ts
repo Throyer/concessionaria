@@ -1,5 +1,5 @@
 import { ValueTransformer } from 'typeorm';
-import { isNullOrUndefined } from '@utils/object/null-or-undefined-checker';
+import { isNullOrUndefined } from '../utils/null-or-undefined-checker';
 
 export class DecimalTransformer implements ValueTransformer {
   private static instance: DecimalTransformer;
