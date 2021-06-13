@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "ts-node-dev --inspect=0.0.0.0:9229 --transpile-only --ignore-watch node_modules src/server.ts",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
-    "migration:generate": "ts-node ./node_modules/typeorm/cli.js migration:generate",
     "migration:create": "ts-node ./node_modules/typeorm/cli.js migration:create -n",
     "migration:run": "ts-node ./node_modules/typeorm/cli.js migration:run",
     "migration:show": "ts-node ./node_modules/typeorm/cli.js migration:show",
